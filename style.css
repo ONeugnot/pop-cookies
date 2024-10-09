@@ -1,0 +1,57 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+main {
+	width: max-content;
+}
+
+#rouge {
+	position: absolute;
+	background-color: red;
+	width: 30%;
+	height: 50%;
+	top: 151px;
+	left: 346px;
+	border-radius: 12px;
+}
+
+#bleu {
+	position: absolute;
+	background-color: blue;
+	width: 30%;
+	height: 50%;
+	top: 201px;
+	left: 406px;
+	border-radius: 12px;
+}
+
+#vert {
+	position: absolute;
+	background-color: rgba(0, 255, 38, 1);
+	width: 30%;
+	height: 50%;
+	top: 251px;
+	left: 476px;
+	border-radius: 12px;
+}
+
+#end {
+	position: relative;
+	left: 27px;
+	top: 650px;
+	background-color: rgba(217, 217, 217, 1);
+}
+
+.btn {
+	display: flex;
+	flex-direction: row;
+	border: none;
+
+}
+
+.blanc {
+	background-color: white;
+}
